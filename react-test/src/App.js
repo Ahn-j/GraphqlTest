@@ -12,7 +12,7 @@ import { ApolloClient, InMemoryCache } from '@apollo/client'
 function App() {
 
   const [menu, setMenu] = useState('Teams')
-
+  //서버가 기동되었을때 가능함
   //GraphQL 서버로와 정보를 주고받을 ApolloClient 객체생성
   const client = new ApolloClient({
     uri: 'http://localhost:4000',
